@@ -1,0 +1,17 @@
+SELECT first_name AS "First Name", last_name AS "Last Name" 
+-- FROM employees;
+
+-- SELECT DISTINCT department_id
+-- From employees ORDER BY department_id;
+
+-- SELECT first_name,email, phone_number,hire_date,job_id,salary,manager_id,department_id, Avg_Salary
+-- FROM employees ORDER BY first_name DESC;
+
+-- SELECT first_name, last_name, salary, salary*0.15 PF
+-- FROM employees ORDER BY salary ASC;
+
+-- SELECT MAX(salary), MIN(salary)
+-- from employees
+
+-- SELECT employee_id, round(salary/12,2) as "Avarege monthly salary"
+-- FROM employees
